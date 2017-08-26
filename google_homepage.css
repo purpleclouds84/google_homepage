@@ -1,9 +1,35 @@
+body {
+	font-family: 'Roboto';
+}
+
+.head-content {
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+}
+
+.top-list {
+	margin: 5px;
+	padding: 5px;
+	font-size: small;
+	color: #000;
+	opacity: .85;
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+}
 
 
 
-
-
-#opt_btn {
-	background-image: url('i1_1967ca6a.png');
-	background-size: 528px 68px;
+#sgn_in_btn {
+	color: #fff;
+	border: 8px solid #0081ff;
+	border-radius: 2px;
+	background-color: #0081ff;
+	font-size: 13px;
+	font-family: arial, sans-serif;
 }

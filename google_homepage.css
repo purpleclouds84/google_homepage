@@ -46,28 +46,59 @@ div {
 	border-radius: 2px;
 }
 
-.logo {
+.main-content {
 	text-align: center;
-	padding: 100px 0;
+	padding: 200px 0;
+}
+
+#sub-logo {
+	color: #4285f4;
+	margin-left: 213px;
+	margin-top: -16px;
+	font-family: arial, sans-serif;
 }
 
 .search-form {
 	width: 600px;
 	margin: 0 auto;
-	border: 0;
+	height: 100%;
+	padding: 15px 9px 0;
+	-moz-box-sizing: border-box;
 }
 
 form {
 	max-width: none;
+	overflow: visible;
 }
 
-input {
+.ipt {
 	width: 100%;
-	height: 40px;
+	height: 44px;
 	margin-top: 20px;
-	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	border: medium none;
 	border-radius: 2px;
+	box-shadow: 2px 2px 11px -7px rgba(0, 0, 0, 0.75);
 	z-index: 6;
+}
+
+.sbmt {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #666;
+	font-size: small;
+	border: none;
+	border-radius: 0;
+	width: auto;
+	height: 36px;
+	min-width: 54px;
+	margin: 11px 4px;
+	margin-top: 35px;
+	padding: 0 16px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+input:hover {
+	opacity: 0.5;
 }
 
 .footer {
@@ -97,5 +128,9 @@ input {
 #left {
 	float: left;
 	padding-left: 30px;
+}
 
+.li-top:hover {
+	text-decoration: underline;
+	opacity: 0.85;
 }
